@@ -1,6 +1,8 @@
-let anim = document.querySelector("#anim");
-anim.addEventListener('click', startAnimation);
+let char = document.querySelector("img.hero");
+let shakeButton = document.querySelector("#shake");
+shakeButton.addEventListener("click", makeShake);
 
-function startAnimation(){
-    anim.classList.add('enable');
-}
+function makeShake(){
+    console.log("make shake");
+    char.classList.toggle("shakeCSS");
+};

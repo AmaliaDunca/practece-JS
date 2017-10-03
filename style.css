@@ -1,15 +1,18 @@
-#anim {
-  background:red;
-  width: 200px;
-  height: 200px;
-}
-#anim.enable {
-   animation:
-    flash 1s ease infinite;
-}
-@keyframes flash {
-  50% {
-    opacity:0;
-  }
+    .hero {
+
+    width: 100px;
+    height: 100px;
 }
 
+.shakeCSS {
+    animation: shakeIt 0.1s infinite;
+}
+
+@keyframes shakeIt {
+    25% {
+        transform: translateX(-7px)
+    }
+    75% {
+        transform:translateX(7px)
+    }
+}
