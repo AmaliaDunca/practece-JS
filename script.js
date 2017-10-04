@@ -36,3 +36,18 @@ function makeDead() {
     char.classList.toggle("deadCSS");
 }
 
+/* fade*/
+
+let fadeButton = document.querySelector("#fade");
+fadeButton.addEventListener("click", makeFade);
+
+function makeFade() {
+    console.log("make fade");
+    char.classList.toggle("fadeCSS")
+
+};
+
+
+
+
+
