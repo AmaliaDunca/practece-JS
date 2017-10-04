@@ -1,10 +1,11 @@
-    .hero {
+    img{
 
     width: 100px;
     height: 100px;
 }
 
-.shakeCSS {
+
+    .shakeCSS {
     animation: shakeIt 0.1s infinite;
 }
 
@@ -16,3 +17,49 @@
         transform:translateX(7px)
     }
 }
+
+/* jump */
+
+.jumpCSS {
+    animation: jumpIt 1s 1 ease-in;
+}
+
+@keyframes jumpIt {
+    25% {
+        transform: translateY(-20px)
+    }
+    75% {
+        transform:translateY(0px)
+    }
+}
+
+/*walk */
+
+
+.walkCSS {
+    animation: walkNow 2s infinite ;
+}
+
+@keyframes walkNow  {
+    25% {
+        transform: translateX(-100px)
+    }
+
+    75% {
+        transform:translateX(1000px)
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
