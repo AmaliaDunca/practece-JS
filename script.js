@@ -25,3 +25,14 @@ function makeWalk() {
     console.log("make walk");
     char.classList.toggle("walkCSS");
 }
+
+/* kill it*/
+
+let shootButton = document.querySelector("#shoot");
+shootButton.addEventListener("click", makeDead);
+
+function makeDead() {
+    console.log("make dead");
+    char.classList.toggle("deadCSS");
+}
+

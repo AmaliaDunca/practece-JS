@@ -49,8 +49,20 @@
         transform:translateX(1000px)
     }
 }
+ /* kill It*/
+
+.deadCSS {
+    animation: deadNow 5s ease-in 1 forwards;
+}
+
+@keyframes deadNow  {
+    100% {
+        transform:rotate(50deg);
+        transform-origin: 10% 100% ;
+    }
 
 
+}
 
 
 
